@@ -10,7 +10,7 @@ public class User
     public int UserId { get; set; }
 
     [Required(ErrorMessage = "is required.")]
-    [Display(Name = = "Username")]
+    [Display(Name = "Username")]
     public string Username { get; set; }
 
     [Required(ErrorMessage = "is required.")]
