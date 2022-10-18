@@ -43,4 +43,7 @@ public class User
     public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
     // === Field Relationships ===
+    public List<Post> Posts { get; set; } = new List<Post>();
+    public List<Listing> Listings { get; set; } = new List<Listing>();
+    public List<Review> Reviews { get; set; } = new List<Review>();
 }
