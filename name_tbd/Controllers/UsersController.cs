@@ -3,8 +3,13 @@ namespace name_tbd.Controllers;
 
 public class UsersController : Controller
 {
-    // TODO Route: Landing Page
-    
+    // [HttpGet("/")] // Route: Landing Page
+    // public IActionResult Index()
+    // {
+    //     // TODO: Add name of landing page cshtml file
+    //     return View("");
+    // }
+
     [HttpGet("/")] // Route: Login/Register 
     public IActionResult LoginRegister()
     {
@@ -24,8 +29,7 @@ public class UsersController : Controller
         return RedirectToAction("Dashboard");
     }
 
-    // TODO Route: Dashboard
-    [HttpGet("/dashboard")]
+    [HttpGet("/dashboard")] // Route: Dashboard
     public IActionResult Dashboard()
     {
         // TODO: add name of dashboard cshtml file
