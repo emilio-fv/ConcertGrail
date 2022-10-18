@@ -3,12 +3,12 @@ namespace name_tbd.Controllers;
 
 public class UsersController : Controller
 {
-    // [HttpGet("/")] // Route: Landing Page
-    // public IActionResult Index()
-    // {
-    //     // TODO: Add name of landing page cshtml file
-    //     return View("");
-    // }
+    [HttpGet("/about")] // Route: Landing Page
+    public IActionResult Index()
+    {
+        // TODO: Add name of landing page cshtml file
+        return View("");
+    }
 
     [HttpGet("/")] // Route: Login/Register 
     public IActionResult LoginRegister()
@@ -17,13 +17,13 @@ public class UsersController : Controller
         return View("");
     }
 
-    [HttpPost("/users/register")] // Route: Register User
+    [HttpPost("/register")] // Route: Register User
     public IActionResult Register()
     {
         return RedirectToAction("Dashboard");
     }
     
-    [HttpPost("/users/login")] // Route: Login User
+    [HttpPost("/login")] // Route: Login User
     public IActionResult Login()
     {
         return RedirectToAction("Dashboard");
@@ -33,6 +33,38 @@ public class UsersController : Controller
     public IActionResult Dashboard()
     {
         // TODO: add name of dashboard cshtml file
+        return View("");
+    }
+
+    // TODO Route: Events page
+    [HttpGet("/events")]
+    public IActionResult Events()
+    {
+        // TODO: add name of events cshtml file
+        return View("");
+    }
+
+    // TODO Route: Share page
+    [HttpGet("/share")]
+    public IActionResult Share()
+    {
+        // TODO: add name of share cshtml file
+        return View("");
+    }
+
+    // TODO Route: Connect page
+    [HttpGet("/connect")]
+    public IActionResult Connect()
+    {
+        // TODO: add name of connect cshtml file
+        return View("");
+    }
+    
+    // TODO Route: User Profile page
+    [HttpGet("/profile")]
+    public IActionResult Profile()
+    {
+        // TODO: add name of profile cshtml file
         return View("");
     }
 }
