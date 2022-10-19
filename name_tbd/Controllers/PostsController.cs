@@ -3,18 +3,18 @@ namespace name_tbd.Controllers;
 
 public class PostsController : Controller
 {
-    // TODO Route: New Post Form
-    [HttpGet("/posts/new")]
+    [HttpGet("/posts/new")] // Route: New Post Form
     public IActionResult NewPost()
     {
-        // TODO: Add name of new post form cshtml file
-        return View("");
+        // TODO: Add any necessary logic
+        return View("NewPost");
     }
 
-    // TODO Route: Create Post 
-    [HttpPost("/posts/create")]
+    
+    [HttpPost("/posts/create")] // Route: Create Post
     public IActionResult Create()
     {
+        // TODO: Any any necessary logic
         return RedirectToAction("Share", "Users"); // Redirect to Share page
     }
 }

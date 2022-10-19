@@ -3,18 +3,17 @@ namespace name_tbd.Controllers;
 
 public class ReviewsController : Controller
 {
-    // TODO Route: New Review Form
-    [HttpGet("/reviews/new")]
+    [HttpGet("/reviews/new")] // Route: New Review Form
     public IActionResult NewReview()
     {
-        // TODO: Add name of new review form cshtml file
-        return View("");
+        // TODO: Add any necessary logic
+        return View("NewReview");
     }
 
-    // TODO Route: Create Review 
-    [HttpPost("/reviews/create")]
+    [HttpPost("/reviews/create")] // Route: Create Review 
     public IActionResult Create()
     {
+        // TODO: Add any necessary logic
         return RedirectToAction("Share", "Users"); // Redirect to Share page
     }
 }

@@ -10,18 +10,17 @@ public class ListingsController : Controller
     //     _context = context;
     // }
 
-    // TODO Route: New Listing Form
-    [HttpGet("/listings/new")]
-    public IActionResult NewListing()
+    [HttpGet("/listings/new")] // Route: New Listing Form
+    public IActionResult New()
     {
-        // TODO: Add name of new listing form cshtml file
-        return View("");
+        // TODO: Add any necessary logic
+        return View("NewListing");
     }
 
-    // TODO Route: Create Listing 
-    [HttpPost("/listings/create")]
+    [HttpPost("/listings/create")] // Route: Create Listing 
     public IActionResult Create()
     {
+        // TODO: Add any necessary logic
         return RedirectToAction("Share", "Users"); // Redirect to Share page
     }
 }

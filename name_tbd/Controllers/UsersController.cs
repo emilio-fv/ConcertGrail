@@ -13,7 +13,7 @@ public class UsersController : Controller
     [HttpGet("/")] // Route: Login/Register 
     public IActionResult LoginRegister()
     {
-        // TODO: Add name of login/register cshtml file
+        // TODO: Add any necessary logic
         return View("Index");
     }
 
@@ -29,26 +29,26 @@ public class UsersController : Controller
         return RedirectToAction("Dashboard");
     }
 
+    // TODO Route: Logout User
+
     [HttpGet("/dashboard")] // Route: Dashboard
     public IActionResult Dashboard()
     {
-        // TODO: add name of dashboard cshtml file
+        // TODO Add any necessary logic
         return View("Dashboard");
     }
 
-    // TODO Route: Events page
-    [HttpGet("/events")]
+    [HttpGet("/events")] // Route: Events page
     public IActionResult Events()
     {
-        // TODO: add name of events cshtml file
-        return View("");
+        // TODO Add any necessary logic
+        return View("SearchEvents");
     }
 
-    // TODO Route: Share page
-    [HttpGet("/share")]
+    [HttpGet("/share")] // Route: Share page
     public IActionResult Share()
     {
-        // TODO: add name of share cshtml file
+        // TODO: Add any necessary logic
         return View("Share");
     }
 
