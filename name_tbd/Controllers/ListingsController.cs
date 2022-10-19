@@ -3,6 +3,13 @@ namespace name_tbd.Controllers;
 
 public class ListingsController : Controller
 {
+    // private MyContext _context;
+
+    // public ListingsController(MyContext context)
+    // {
+    //     _context = context;
+    // }
+
     // TODO Route: New Listing Form
     [HttpGet("/listings/new")]
     public IActionResult NewListing()
