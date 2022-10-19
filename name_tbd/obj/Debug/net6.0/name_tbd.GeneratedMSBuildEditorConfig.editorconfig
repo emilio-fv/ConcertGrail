@@ -27,8 +27,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/_Listings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MaXN0aW5ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/_Posts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Qb3N0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/_Reviews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19SZXZpZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Users/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Users/Share.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvU2hhcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Users/_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvX0xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Users/_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvX1JlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/_ViewImports.cshtml]

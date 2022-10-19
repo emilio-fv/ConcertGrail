@@ -16298,13 +16298,43 @@
   "RootNamespace": "name_tbd",
   "Documents": [
     {
+      "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/_Listings.cshtml",
+      "TargetPath": "Views\\Shared\\_Listings.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Users/_Register.cshtml",
+      "TargetPath": "Views\\Users\\_Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Users/_Login.cshtml",
+      "TargetPath": "Views\\Users\\_Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Users/Share.cshtml",
+      "TargetPath": "Views\\Users\\Share.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Users/Dashboard.cshtml",
+      "TargetPath": "Views\\Users\\Dashboard.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Users/Index.cshtml",
+      "TargetPath": "Views\\Users\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16315,6 +16345,16 @@
     {
       "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/_Posts.cshtml",
+      "TargetPath": "Views\\Shared\\_Posts.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/_Reviews.cshtml",
+      "TargetPath": "Views\\Shared\\_Reviews.cshtml",
       "FileKind": "mvc"
     },
     {
