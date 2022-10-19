@@ -132,9 +132,9 @@ public class UsersController : Controller
         {
             return Index();
         }
-        // TODO: Add recent posts to ViewBag.allPosts
         ShareViewModel shareModel = new ShareViewModel();
-        shareModel.Posts = Database.Posts.ToList();
+        shareModel.Posts = Database.Posts.ToList(); // Get all posts from db
+        shareModel.Reviews = Database.Reviews.ToList(); // Get all reviews from db
         return View("Share", shareModel);
     }
 
