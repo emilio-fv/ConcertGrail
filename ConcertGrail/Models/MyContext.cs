@@ -6,8 +6,8 @@ public class MyContext : DbContext
 {
     public MyContext(DbContextOptions options) : base(options) { }
     public DbSet<User> Users { get; set; } 
-    // TODO: Add Posts
-    // TODO: Add Comments
-    // TODO: Add Reviews
-    // TODO: Add Listings
+    public DbSet<Post> Posts { get; set; } 
+    public DbSet<Comment> Comments { get; set; } 
+    public DbSet<Review> Reviews { get; set; } 
+    public DbSet<Listing> Listings { get; set; }
 }
