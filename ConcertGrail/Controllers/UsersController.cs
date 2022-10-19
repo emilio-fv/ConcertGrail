@@ -105,7 +105,13 @@ public class UsersController : Controller
     [HttpGet("/dashboard")] // Route: Dashboard
     public IActionResult Dashboard()
     {
+        // Check if user logged in
+        if(!loggedIn)
+        {
+            return Index();
+        }
         // TODO Add any necessary logic
+        ViewBag.loggedUser = Database.Users.FirstOrDefault(u => u.UserId == userId);
         return View("Dashboard");
     }
 
