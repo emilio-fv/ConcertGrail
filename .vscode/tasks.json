@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/name_tbd/name_tbd.csproj",
+                "${workspaceFolder}/ConcertGrail/ConcertGrail.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/name_tbd/name_tbd.csproj",
+                "${workspaceFolder}/ConcertGrail/ConcertGrail.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/name_tbd/name_tbd.csproj"
+                "${workspaceFolder}/ConcertGrail/ConcertGrail.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
