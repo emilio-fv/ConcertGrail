@@ -133,7 +133,9 @@ public class UsersController : Controller
             return Index();
         }
         // TODO: Add recent posts to ViewBag.allPosts
-        return View("Share");
+        ShareViewModel shareModel = new ShareViewModel();
+        shareModel.Posts = Database.Posts.ToList();
+        return View("Share", shareModel);
     }
 
     // TODO Route: Connect page
