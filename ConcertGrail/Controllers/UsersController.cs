@@ -105,8 +105,7 @@ public class UsersController : Controller
     [HttpGet("/dashboard")] // Route: Dashboard
     public IActionResult Dashboard()
     {
-        // Check if user logged in
-        if(!loggedIn)
+        if(!loggedIn) // Check if user logged in
         {
             return Index();
         }
@@ -118,6 +117,10 @@ public class UsersController : Controller
     [HttpGet("/events")] // Route: Events page
     public IActionResult Events()
     {
+        if(!loggedIn) // Check if user logged in
+        {
+            return Index();
+        }
         // TODO Add any necessary logic
         return View("SearchEvents");
     }
@@ -125,7 +128,11 @@ public class UsersController : Controller
     [HttpGet("/share")] // Route: Share page
     public IActionResult Share()
     {
-        // TODO: Add any necessary logic
+        if(!loggedIn) // Check if user logged in
+        {
+            return Index();
+        }
+        // TODO: Add recent posts to ViewBag.allPosts
         return View("Share");
     }
 
@@ -133,6 +140,10 @@ public class UsersController : Controller
     [HttpGet("/connect")]
     public IActionResult Connect()
     {
+        if(!loggedIn) // Check if user logged in
+        {
+            return Index();
+        }
         // TODO: add name of connect cshtml file
         return View("");
     }
@@ -141,6 +152,10 @@ public class UsersController : Controller
     [HttpGet("/profile")]
     public IActionResult Profile()
     {
+        if(!loggedIn) // Check if user logged in
+        {
+            return Index();
+        }
         // TODO: add name of profile cshtml file
         return View("");
     }

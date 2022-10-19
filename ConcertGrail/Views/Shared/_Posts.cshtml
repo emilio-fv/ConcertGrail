@@ -17,27 +17,25 @@
             @* @foreach(Post Post in ViewBag.Events){ *@
                 @* bool Commented = Post.PostCommented.Any(g => g.PostId == Context.Session.GetInt32("UUID")); *@
 
-                @* <tr class="d-flex justify-content-around">
-                    <td class="w-25"><a asp-action="One" asp-controller="Posts" asp-route-PostId="@Post.PostId">@Post.Subject</a></td>
-                    <td class="bg-secondary w-25">@Post.Message</td> *@
-                    @* <td class="bg-secondary w-25">@Post.Comments</td> *@
+                @* <tr class="d-flex justify-content-around"> *@
+                    @* <td class="w-25"><a asp-action="One" asp-controller="Posts" asp-route-PostId="@Post.PostId">@Post.Subject</a></td>
+                    <td class="bg-secondary w-25">@Post.Message</td>
+                    <td class="bg-secondary w-25">@Post.Comments</td> *@
                     @* Maybe include a date for the post???When the concert will occur? *@
-                    @* <td class="bg-secondary w-25">@Post.CreatedAt</td> *@
-                    @* <td class="w-25">@Post.PostCommented.Count()</td> *@
-
-
+                    @* <td class="bg-secondary w-25">@Post.CreatedAt</td>
+                    <td class="w-25">@Post.PostCommented.Count()</td> *@
                     @* @if(Context.Session.GetInt32("UUID") == Post.PostId){
                         <td class="bg-secondary w-25"><a asp-action="DeletePost" asp-controller="Posts" asp-route-PostId="@Post.PostId">Delete</a></td>
-                    }
-                    <form asp-action="Comment" asp-controller="Posts" asp-route-PostId="@Post.PostId" method="post">
-                        @if(Context.Session.GetInt32("UUID") != Post.PostId){ *@
-                            @* @if(!Commented){
+                    } *@
+                    @* <form asp-action="Comment" asp-controller="Posts" asp-route-PostId="@Post.PostId" method="post">
+                        @if(Context.Session.GetInt32("UUID") != Post.PostId){
+                            @if(!Commented){
                                 <td class="bg-secondary w-25"><button type="submit" class="btn-link">Comment</button></td>
-                            } *@
+                            }
                         }
-                    @* </form> *@
+                    </form> *@
                 </tr>
-            }
+            @* } *@
         </table>
 
     </div>
