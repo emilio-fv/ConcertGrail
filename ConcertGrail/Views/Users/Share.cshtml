@@ -2,6 +2,9 @@
 @{
     ViewData["Title"] = "Share";
 }
+
+@model ShareViewModel
+
 <h1 class="text-center m-4">Shared Experiences!</h1>
 <div>
     <a href="/posts/new">Create Post</a>
@@ -9,13 +12,40 @@
     <a href="/listings/new">Create Listing</a>
 </div>
 <div class="d-flex justify-content-around">
+    @* Posts *@
     <div class="card p-3 m-2 w-33">
-        <partial name="_Posts"/>
+        <div class="container text-center px-2">
+            <h1 class="display-4">Posts</h1>
+                <div class="mt-5">
+                    <hr width="100%"/><br>
+                    <table class="card bg-light">
+                        <thead>
+                            <tr class="d-flex justify-content-around">
+                                <th class="w-33">Subject</th>
+                                <th class="w-33">Message</th>
+                                <th class="w-33">Date Posted</th>
+                            </tr>
+                        </thead>
+                        @foreach (var post in Model.Posts)
+                        {
+                            <tr class="d-flex justify-content-around">
+                                @* TODO: Link message to view one page *@
+                                <td class="w-25">@post.Subject</td>
+                                <td class="w-25">@post.Message</td>
+                                <td class="w-25">@post.CreatedAt.ToString("dd MMMM yyyy")</td>
+                                @* TODO: Add edit/delete button *@
+                                @* TODO: add comments *@
+                                @* TODO: add comment form *@
+                            </tr>
+                        }
+                    </table>
+                </div>
+        </div>
     </div>
-    <div class="card p-3 m-2 w-33">
+    @* <div class="card p-3 m-2 w-33">
         <partial name="_Reviews"/>
     </div>
     <div class="card p-3 m-2 w-33">
         <partial name="_Listings"/>
-    </div>
+    </div> *@
 </div>
