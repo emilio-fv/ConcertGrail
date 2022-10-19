@@ -135,6 +135,7 @@ public class UsersController : Controller
         ShareViewModel shareModel = new ShareViewModel();
         shareModel.Posts = Database.Posts.ToList(); // Get all posts from db
         shareModel.Reviews = Database.Reviews.ToList(); // Get all reviews from db
+        shareModel.Listings = Database.Listings.ToList(); // Get all listings from db
         return View("Share", shareModel);
     }
 
