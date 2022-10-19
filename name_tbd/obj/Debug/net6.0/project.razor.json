@@ -16313,6 +16313,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/NewPost.cshtml",
+      "TargetPath": "Views\\Shared\\NewPost.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Users/_Login.cshtml",
       "TargetPath": "Views\\Users\\_Login.cshtml",
       "FileKind": "mvc"
@@ -16320,6 +16325,11 @@
     {
       "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Users/Share.cshtml",
       "TargetPath": "Views\\Users\\Share.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/NewReview.cshtml",
+      "TargetPath": "Views\\Shared\\NewReview.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16343,6 +16353,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/NewListing.cshtml",
+      "TargetPath": "Views\\Shared\\NewListing.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -16363,8 +16378,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Events/search_events.cshtml",
-      "TargetPath": "Views\\Events\\search_events.cshtml",
+      "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/SearchEvents.cshtml",
+      "TargetPath": "Views\\Shared\\SearchEvents.cshtml",
       "FileKind": "mvc"
     },
     {

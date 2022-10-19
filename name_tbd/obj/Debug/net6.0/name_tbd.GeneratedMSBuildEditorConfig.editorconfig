@@ -15,10 +15,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Events/search_events.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZlbnRzL3NlYXJjaF9ldmVudHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -29,6 +25,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/NewListing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL05ld0xpc3RpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/NewPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL05ld1Bvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/NewReview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL05ld1Jldmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/SearchEvents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1NlYXJjaEV2ZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Shared/_Listings.cshtml]
