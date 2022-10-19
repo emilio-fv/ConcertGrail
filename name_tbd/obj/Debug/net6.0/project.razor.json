@@ -16323,6 +16323,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Events/search_events.cshtml",
+      "TargetPath": "Views\\Events\\search_events.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/name_tbd/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
