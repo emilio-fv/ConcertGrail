@@ -43,7 +43,8 @@ public class PostsController : Controller
     [HttpPost("/posts/create")] // Route: Create Post
     public IActionResult Create(Post newPost)
     {
-        if(!ModelState.IsValid) // Validate form data
+        // Validate form data
+        if(!ModelState.IsValid)
         {
             return NewPost();
         }
