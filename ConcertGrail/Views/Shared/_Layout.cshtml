@@ -57,7 +57,16 @@
                             </div>
                         </div>
                         <div>
-                            <button class="btn btn-dark"><a asp-controller="Users" asp-action="Logout">Logout</a></button>
+                            @{
+                                int? login = Context.Session.GetInt32("UserId");
+                            }
+                            @* <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Logout">Logout</a> *@
+                            @if (login != null) 
+                            {
+                                <form asp-controller="Users" asp-action="Logout" method="post">
+                                    <button class="btn-danger">Logout</button>
+                                </form>
+                            }
                         </div>
                     </nav>
                 </header>
