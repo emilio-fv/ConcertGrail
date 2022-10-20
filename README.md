@@ -13,8 +13,8 @@
 * C#
 * ASP.NET Core
 
-## Future Updates
-* TBD
+## Front-End Features
+* Light/Dark Mode
 
 ## Demo
 TODO
