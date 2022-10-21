@@ -114,17 +114,6 @@ public class UsersController : Controller
         return View("Dashboard");
     }
 
-    [HttpGet("/events")] // Route: Events page
-    public IActionResult Events()
-    {
-        if(!loggedIn) // Check if user logged in
-        {
-            return Index();
-        }
-        // TODO Add any necessary logic
-        return View("SearchEvents");
-    }
-
     [HttpGet("/share")] // Route: Share page
     public IActionResult Share()
     {
