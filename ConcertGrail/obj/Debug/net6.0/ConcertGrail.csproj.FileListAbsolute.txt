@@ -68,3 +68,6 @@
 /Users/danric/Desktop/csharp_proj_name_tbd/ConcertGrail/obj/Debug/net6.0/ConcertGrail.pdb
 /Users/danric/Desktop/csharp_proj_name_tbd/ConcertGrail/obj/Debug/net6.0/ConcertGrail.genruntimeconfig.cache
 /Users/danric/Desktop/csharp_proj_name_tbd/ConcertGrail/obj/Debug/net6.0/ref/ConcertGrail.dll
+/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/ConcertGrail/bin/Debug/net6.0/System.Net.Http.Formatting.dll
+/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/ConcertGrail/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/ConcertGrail/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll

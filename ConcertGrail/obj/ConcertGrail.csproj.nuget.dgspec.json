@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danric/Desktop/csharp_proj_name_tbd/ConcertGrail/ConcertGrail.csproj": {}
+    "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/ConcertGrail/ConcertGrail.csproj": {}
   },
   "projects": {
-    "/Users/danric/Desktop/csharp_proj_name_tbd/ConcertGrail/ConcertGrail.csproj": {
+    "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/ConcertGrail/ConcertGrail.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danric/Desktop/csharp_proj_name_tbd/ConcertGrail/ConcertGrail.csproj",
+        "projectUniqueName": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/ConcertGrail/ConcertGrail.csproj",
         "projectName": "ConcertGrail",
-        "projectPath": "/Users/danric/Desktop/csharp_proj_name_tbd/ConcertGrail/ConcertGrail.csproj",
-        "packagesPath": "/Users/danric/.nuget/packages/",
-        "outputPath": "/Users/danric/Desktop/csharp_proj_name_tbd/ConcertGrail/obj/",
+        "projectPath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/ConcertGrail/ConcertGrail.csproj",
+        "packagesPath": "/Users/emiliovazquez/.nuget/packages/",
+        "outputPath": "/Users/emiliovazquez/Desktop/csharp_proj_name_tbd/ConcertGrail/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/danric/.nuget/NuGet/NuGet.Config"
+          "/Users/emiliovazquez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -38,11 +38,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -55,8 +63,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -68,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
