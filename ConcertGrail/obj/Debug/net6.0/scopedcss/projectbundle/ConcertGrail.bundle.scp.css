@@ -136,13 +136,15 @@ input:checked + .slider[b-x0ia38q9wv]:before {
   background-color: #292929;
   color: white;
 }
+
 .darkmode .container[b-x0ia38q9wv] {
   background-color: #3d3d3d;
 }
+
 .darkmode .body[b-x0ia38q9wv] {
   background-color: #3d3d3d;
 }
+
 .form-check[b-x0ia38q9wv]{
   cursor: pointer;
 }
-
