@@ -21,6 +21,8 @@ public class Listing
     [Display(Name = "Price")]
     public double Price { get; set; }
 
+    //  public String PriceType { get; set; }
+
     public DateTime CreatedAt { get; set; } = DateTime.Now;
     public DateTime UpdatedAt { get; set; } = DateTime.Now;
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Concert Grail</title>
+    <title>@ViewData["Title"] - ConcertGrail</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ConcertGrail.styles.css" asp-append-version="true" />
@@ -27,45 +27,47 @@
                 </svg>
                 </button>
 
-                @* Pumpkin *@
+                @* pumpkin *@
 
                 @* Moon *@
     @* TODO: Update navbar - should we have a different one for our landing page than the dashboard? *@
-                <header>
+                <header class>
                     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
                         <div class="container-fluid">
-                            <a class="navbar-brand" asp-area="" asp-controller="#" asp-action="#">Project Name</a>
+                            <figure class="figure">
+                                    <img src="https://cdn.discordapp.com/attachments/1031736257488883712/1032418532966813766/ConcertGrail.logo.png" class="figure-img img-fluid rounded align-content-center" alt="CG Logo"height="60px" width="60px">
+                            </figure>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                                <ul class="navbar-nav flex-grow-1">
+                            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between ">
+                                <ul class="navbar-nav flex-grow-1 ">
                                     <li class="nav-item">
-                                        <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Dashboard">Home</a>
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Dashboard"><em>Home</em></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Events">Events</a>
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Events"><em>Events</em></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Share">Share</a>
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Share"><em>Share</em></a>
                                     </li>
                                     @* <li class="nav-item">
                                         <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Connect">Connect</a>
                                     </li> *@
+                                    <li>
+
+                                        @* maybe round it out *@
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <div>
-                            @{
+                          @{
                                 int? login = Context.Session.GetInt32("UserId");
                             }
-                            @* <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Logout">Logout</a> *@
-                            @if (login != null) 
-                            {
-                                <form asp-controller="Users" asp-action="Logout" method="post">
-                                    <button class="btn-danger">Logout</button>
-                                </form>
+                            @if(login != null){
+                            <button class="btn btn-dark"><a asp-controller="Users" asp-action="Logout">Logout</a></button>
                             }
                         </div>
                     </nav>
@@ -90,26 +92,26 @@
     </div>
     <script>
         //setDarkMode
-        if (localStorage.getItem('theme') == 'dark') {
+        if(localStorage.getItem('theme') == 'dark'){
             setDarkMode();
 
-            if (document.getElementById('checkbox').checked) { 
-                localStorage.setItem('checkbox', true);
+            if(document.getElementById('checkbox').checked){
+                localStorage.setItem('checkbox', true)
             }
         }
+            function setDarkMode(){
+                let isDark = document.body.classList.toggle('darkmode');
+                if(isDark){
+                    setDarkMode.checked = true;
+                    localStorage.setItem('theme', 'dark')
+                    document.getElementById('checkbox').setAttribute('checked', 'checked');
 
-        function setDarkMode() {
-            let isDark = document.body.classList.toggle('darkmode');
-            if (isDark) {
-                setDarkMode.checked = true;
-                localStorage.setItem('theme', 'dark');
-                document.getElementById('checkbox').setAttribute('checked', 'checked');
-
-            } else{
-                setDarkMode.checked = true;
-                localStorage.removeItem('theme', 'dark');
+                }else{
+                    setDarkMode.checked = true;
+                    localStorage.removeItem('theme', 'dark');
+                }
             }
-        }
+
     </script>
 </body>
 </html>
