@@ -31,7 +31,7 @@
 
                 @* Moon *@
     @* TODO: Update navbar - should we have a different one for our landing page than the dashboard? *@
-                <header class>
+                <header>
                     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
                         <div class="container-fluid">
                             <figure class="figure">
@@ -44,13 +44,13 @@
                             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between ">
                                 <ul class="navbar-nav flex-grow-1 ">
                                     <li class="nav-item">
-                                        <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Dashboard"><em>Home</em></a>
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Dashboard">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-dark" asp-area="" asp-controller="Events" asp-action="GetEvent"><em>Events</em></a>
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Events">Events</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Share"><em>Share</em></a>
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Share">Share</a>
                                     </li>
                                     @* <li class="nav-item">
                                         <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Connect">Connect</a>
@@ -63,12 +63,13 @@
                             </div>
                         </div>
                         <div>
-                          @{
+                            @{
                                 int? login = Context.Session.GetInt32("UserId");
                             }
                             @if(login != null){
                             <button class="btn btn-dark"><a asp-controller="Users" asp-action="Logout">Logout</a></button>
                             }
+
                         </div>
                     </nav>
                 </header>
